@@ -1,3 +1,7 @@
+// ****************************************************************************
+//                                 Conversion
+// ****************************************************************************
+
 let count = 3;
 console.log(typeof count); // prints "number" as its data type
 // console.log(typeof(count)); // Another way of writing the same thing
@@ -40,3 +44,17 @@ let numberNumber = 45;
 let stringNumber = String(numberNumber);
 console.log(stringNumber); //prints 33
 console.log(typeof stringNumber); // prints "string"
+
+// ****************************************************************************
+//                                 Operations
+// ****************************************************************************
+
+console.log("1" + 2); // prints out 12
+console.log(1 + "2"); // prints out 12
+console.log("1" + 2 + 2); // prints out 122
+console.log(1 + 2 + "2"); // prints out 32
+
+console.log(true); // prints true
+console.log(+true); // prints 1
+
+console.log(+""); // prints 0 because boolean of "" is 0 and + typecasts it to a number
